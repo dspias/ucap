@@ -1,0 +1,9 @@
+input.messenger-search {
+    border: 1px solid #efefef !important;
+}
+.messenger-listView .m-body {
+    margin-top: 90px !important;
+}
+.m-send {
+    padding: 10px 5px !important;
+}

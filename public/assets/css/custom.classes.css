@@ -1,0 +1,14 @@
+.no-padding{
+    padding: 0px !important;
+}
+
+.text-ucap{
+    color: var(--color2) !important;
+}
+
+.bg-ucap{
+    background: var(--color2) !important;
+    background-color: var(--color2) !important;
+    border-color: var(--color2) !important;
+    color: #ffffff !important;
+}

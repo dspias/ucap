@@ -1,0 +1,238 @@
+@import url("custom.classes.css");
+@import url("variables.css");
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #ffffff !important;
+    background: var(--color2) !important;
+}
+
+::selection {
+    color: #ffffff !important;
+    background: var(--color2) !important;
+}
+
+/* =========< Sweet Alert >========== */
+.swal2-styled.swal2-confirm {
+    background-color: var(--color2) !important;
+}
+.swal2-styled.swal2-cancel {
+    background-color: var(--color1) !important;
+}
+.swal2-popup.swal2-toast.swal2-show {
+    box-shadow: 0px 0px 5px 3px rgb(0 0 4 / 12%) !important;
+}
+/* =========< Sweet Alert >========== */
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #c6c6c6 !important;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c6c6c6 !important;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #c6c6c6 !important;
+}
+
+*,
+:focus,
+:active,
+input[type="checkbox"],
+input[type="radio"],
+.custom-control-input:focus ~ .custom-control-label::before,
+.custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before,
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--color1) !important;
+    border-color: var(--color1) !important;
+}
+.custom-control-label {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color1);
+}
+
+*[data-href] {
+    cursor: pointer !important;
+}
+
+.on-hover-ucap{
+    transition: 0.3s all ease-in-out !important;
+}
+.on-hover-ucap:hover{
+    color: var(--color2) !important;
+    transition: 0.3s all ease-in-out !important;
+}
+
+.card-header {
+    border-bottom: 1px solid #3636360a;
+}
+
+.custom-checkbox .custom-control-label {
+    cursor: pointer;
+}
+
+.required {
+    font-weight: bold !important;
+    color: var(--color2) !important;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.breadcrumb-item a i.fa.fa-home {
+    color: var(--color1);
+}
+
+.btn-custom {
+    background-color: var(--color1);
+    border-color: var(--color1);
+    color: #ffffff;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background-color: var(--color2);
+    border-color: var(--color2);
+    color: #ffffff;
+}
+
+.btn-custom-outline {
+    background-color: #ffffff;
+    border-color: var(--color1);
+    color: var(--color1);
+}
+.btn-custom-outline:hover,
+.btn-custom-outline:focus,
+.btn-custom-outline:active {
+    background-color: var(--color1);
+    border-color: var(--color1);
+    color: #ffffff;
+}
+
+.form-control {
+    border-color: #3636362e !important;
+}
+.form-control:focus {
+    border-color: var(--color1) !important;
+}
+
+.pagination .paginate_button.page-item.active a.page-link {
+    background-color: var(--color1);
+    border-color: var(--color1);
+}
+
+.modal-header {
+    background-color: var(--color1);
+    border-color: var(--color1);
+}
+
+.btn-outline-dark {
+    color: var(--color1) !important;
+    border-color: var(--color1) !important;
+}
+.btn-outline-dark:not(:disabled):not(.disabled):active,
+.btn-outline-dark:hover,
+.btn-outline-dark:active,
+.btn-outline-dark:focus {
+    background-color: var(--color1) !important;
+    border-color: var(--color1) !important;
+    color: #ffffff !important;
+}
+
+/* =================< Date Picker >================= */
+.datepicker--day-name {
+    color: var(--color1) !important;
+}
+.datepicker--cell.-selected-,
+.datepicker--cell.-selected-.-current- {
+    color: #fff;
+    background: var(--color2) !important;
+}
+/* =================< Date Picker >================= */
+
+/* =================< Sidenav >================= */
+.vertical-menu > li:hover > a,
+.vertical-menu .vertical-submenu > li > a.active,
+.vertical-menu .vertical-submenu > li > a:hover {
+    color: var(--color2);
+}
+.vertical-menu > li.active > a,
+.vertical-menu > li > a.active,
+.vertical-menu .vertical-submenu > li.active > a {
+    color: var(--color2);
+    font-weight: bold;
+}
+.vertical-menu > li.finance.active > a img,
+.vertical-menu > li.finance:hover > a img {
+    filter: invert(0.9) sepia(1) saturate(120) hue-rotate(0) !important;
+}
+
+/* =================< Data Table >================= */
+a[aria-controls="datatable-buttons"] {
+    background: var(--color1);
+    border-color: var(--color1);
+}
+.btn-dark:not(:disabled):not(.disabled):active,
+.btn-dark:not(:disabled):not(.disabled):hover,
+a[aria-controls="datatable-buttons"]:not(:disabled):not(.disabled):hover,
+a[aria-controls="datatable-buttons"]:not(:disabled):not(.disabled):active {
+    background-color: var(--color1) !important;
+    border-color: var(--color1) !important;
+    color: #ffffff !important;
+}
+
+/* =================< Super Settings Start >=============== */
+.email-leftbar ul li a:hover {
+    color: var(--color2);
+}
+.email-leftbar ul li a.active {
+    color: var(--color2);
+    font-weight: bold;
+}
+/* =================< Super Settings End >=============== */
+
+.datepickers-container {
+    z-index: 9999999999;
+}
+
+
+.notification-1 {
+    background-color: rgba(0, 128, 255, 0.1) !important;
+    color: #0080ff !important;
+}
+.notification-2 {
+    background-color: rgba(43, 255, 0, 0.1) !important;
+    color: #00ff0d !important;
+}
+.notification-3 {
+    background-color: rgba(255, 94, 0, 0.1) !important;
+    color: #ff8800 !important;
+}
+.notification-4 {
+    background-color: rgba(255, 0, 170, 0.1) !important;
+    color: #ff00c8 !important;
+}
+.notification-5 {
+    background-color: rgba(255, 0, 0, 0.1) !important;
+    color: #ff0000 !important;
+}
+.notification-6 {
+    background-color: rgba(17, 0, 255, 0.1) !important;
+    color: #1900ff !important;
+}
+.notifybar .dropdown.show .dropdown-menu.dropdown-menu-right.show{
+    min-width: 300px;
+}
